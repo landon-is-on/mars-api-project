@@ -1,0 +1,36 @@
+/*-----backgrund pic--------*/
+html { 
+    background: url(/backgroundpics/nasa-galaxy_9pu4.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+/*header----------contant*/
+.title-div{
+    margin-left: 40rem;
+    margin-top: 15rem;
+    margin-bottom: 1rem;
+background-color: white;
+   height: 15rem;
+width: 40rem;
+}  
+
+#title-h{
+color: black;
+text-align: center;
+
+font-size: 3rem;  
+}
+
+#title-p{
+    color: black;
+    text-align: center;
+    font-size: 1rem;  
+    }
+
+/*-----input feild-------*/
+    #calander-input{
+text-align: center;
+    }
