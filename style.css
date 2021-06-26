@@ -34,3 +34,11 @@ font-size: 3rem;
     #calander-input{
 text-align: center;
     }
+
+    img{
+margin-top: 3rem;
+        width: 20rem;
+height: 20rem;
+position: absolute;
+left: 50rem;
+    }
