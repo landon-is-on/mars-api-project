@@ -1,0 +1,66 @@
+/* html*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-- hero---*/
+#hero{
+    width: 120rem;
+    height: 38rem;
+    }
+
+    #hero-title{
+        position: absolute;
+        top: 10rem;
+        left: 54rem;
+        font-size: 5rem;
+        color: #f4a261;
+    }
+
+    #hero-p{
+        font-family: 'Playfair Display', serif;
+        position: absolute;
+        top: 17rem;
+        left: 44rem;
+        font-size: 2rem;
+        color: black;
+        font-weight: bold;
+    }
+    /*--info panel--*/
+    .allInfo-d{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #ced4da;
+        height: 20.9rem;
+        width: 120rem;
+    }
+    
+    .info-panal{
+        margin-top: 5rem;
+        margin-left: 1rem;
+        width: 24rem;
+        height: 6rem;
+        background-color: #212529;
+        color:#fcaf58;
+        padding: 1rem;
+        text-align: center;
+    }
+
+/*----api------*/
+#calander-input{
+    margin-top: 3rem;
+    text-align: center;
+    height: 3rem;
+}
+
+.roverPic{
+        width: 20rem;
+height: 20rem;
+width: 25rem;
+position: absolute;
+left: 48rem;
+}
+    
