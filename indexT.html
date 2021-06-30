@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
+<body>
+    <!------hero--->
+    <div>
+        <img id="hero" src="/backgroundpics/wp2461878.jpg"> 
+        <h1 id="hero-title">Mars</h1>
+    <p id="hero-p">daily picture of mars</p>
+    <p id="hero-sub"> type in the date to see.</p>
+    </div>
+<!--info panals-->
+    
+<div class="allInfo-d">
+<div class="info-panal animate__animated animate__fadeInUp">
+    <h3 class="info-header">about the api</h3>
+    <p>this api is from NASA, the api takes data from rovers and displays them. </p>
+</div>
+
+<div class="info-panal animate__animated animate__fadeInUp">
+    <h3 class="info-header">how to use</h3>
+    <p>how to use the api you must put in the year-mouth-day for example: 2015-05-20</p>
+</div>
+
+<div class="info-panal animate__animated animate__fadeInUp">
+    <h3 class="info-header">more about mars</h5>
+    <p>mars is a vast place to be exslorid, temperture ranging from an Average -81 degrees F </p>
+</div>
+    </div>
+<!---------api--------------->
+<div id="calander-input">
+    <form id="searchForm">
+        <input type="text" placeholder="2021-06-03" name="query">
+        <button>search</button>
+    </form>
+</div>
+</body>
+<script src="/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+</html>

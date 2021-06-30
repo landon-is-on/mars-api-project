@@ -1,11 +1,9 @@
 /*-----backgrund pic--------*/
-html { 
-    background: url(/backgroundpics/wp2461878.jpg) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-  }
+#hero{
+width: 80rem;
+height: 40rem;
+
+}
 
 /*header----------contant*/
 .title-div{
@@ -15,6 +13,7 @@ html {
 background-color: white;
    height: 15rem;
 width: 40rem;
+text-align: center;
 }  
 
 #title-h{
