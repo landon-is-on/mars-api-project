@@ -6,6 +6,14 @@
 
 
 /*-- hero---*/
+#allHeroHeaders{
+position: absolute;
+top: 9rem;
+left: 51rem;
+text-align: center;
+}
+
+
 .hero{
     background-image: url(/backgroundpics/wp2461878.jpg);
     height: 30rem;
@@ -14,45 +22,44 @@
     background-size: cover;
     position: relative;
 }
-
+/*words on picture*/
     #hero-title{
-        position: absolute;
-        top: 9rem;
-        left: 54.5rem;
-        font-size: 6rem;
-        color: #f4a261;
-        font-family: 'Playfair Display', serif;
+        font-size: 4.5rem;
+        color: black;
+        font-family: 'Cinzel', serif;
+    margin-bottom: .5rem;
     }
 
+    #hero-title:hover{
+    color: #6f3b26;
+    }
+    
     #hero-p{
-        font-family: 'Playfair Display', serif;
-        position: absolute;
-        top: 16rem;
-        left: 50rem;
-        font-size: 2.4rem;
+        margin-top: 2rem;
+        font-family: 'Cinzel', serif;
+        font-size: 2rem;
         color: black;
         font-weight: bold;
     }
 
     #hero-sub{
-        font-family: 'Playfair Display', serif;
-        position: absolute;
-        top: 19rem;
-        left: 57em;
+        font-family: 'Cinzel', serif;
         font-size: 1rem;
         color: black;
         font-weight: bold;
+        
     }
     /*--info panel--*/
     .info-header{
 padding: 1rem;
+font-family: 'Cinzel', serif;
     }
     
     .allInfo-d{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        background-color: #ced4da;
+        background-color: #f8edeb;
         height: 20.9rem;
     }
     
@@ -62,16 +69,22 @@ padding: 1rem;
         font-size: 1.2rem;
         height: 10rem;
         width: 20rem;
-        background-color: #212529;
-        color:#fcaf58;
+        background-color: #a75b3b;
+        
+        color:black;
         padding: 1rem;
         text-align: center;
     border-radius: 6rem;
     }
 
+    .info-p{
+        font-size: 1rem;
+        font-family: 'Josefin Sans', sans-serif;
+
+    }
 /*----api------*/
 #calander-input{
-    background-color: #ced4da; 
+    background-color: #f8edeb; 
     padding-top: 5rem;
     padding-bottom: 10rem;
     text-align: center;
