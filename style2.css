@@ -120,3 +120,62 @@ height: 25rem;
         left: 22rem;
     }
 }
+
+@media screen and (max-width: 848px) {
+    .roverPic{
+        left: 5rem;
+    }
+    #allHeroHeaders{
+        left: 18rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .roverPic{
+        top: 90rem;
+        width: 30rem;
+        height: 20rem;
+        left: 8rem;
+    }
+    #allHeroHeaders{
+        left: 18rem;
+    }
+    .allInfo-d{
+        height: 0%;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 616px) {
+    .roverPic{
+        top: 88rem;
+        width: 20rem;
+        height: 15rem;
+        left: 6rem;
+    }
+    #allHeroHeaders{
+        left: 7rem;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .roverPic{
+        top: 87rem;
+        width: 20rem;
+        height: 15rem;
+        left: 3rem;
+    }
+    #allHeroHeaders{
+        left: 4rem;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .roverPic{
+        left: 2rem;
+    }    
+}
