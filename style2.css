@@ -4,7 +4,9 @@
     padding: 0;
 }
 
-
+body{
+   background-color: #f8edeb;
+}
 /*-- hero---*/
 #allHeroHeaders{
 position: absolute;
@@ -59,7 +61,7 @@ font-family: 'Cinzel', serif;
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        background-color: #f8edeb;
+        
         height: 20.9rem;
     }
     
@@ -84,20 +86,37 @@ font-family: 'Cinzel', serif;
     }
 /*----api------*/
 #calander-input{
-    background-color: #f8edeb; 
-    padding-top: 5rem;
-    padding-bottom: 10rem;
+    padding-top: 3rem;
     text-align: center;
     height: 6rem;
 }
 
 .roverPic{
     margin-top: 1rem;
-    width: 20rem;
-height: 20rem;
-width: 25rem;
+    padding-bottom: 2rem;
 position: absolute;
-left: 70rem;
-bottom: -10rem;
+left: 40rem;
+bottom: -29rem;
+width: 40rem;
+height: 25rem;
 }
     
+/*media */
+
+@media screen and (max-width: 1440px) {
+    .roverPic{
+        left: 25rem;
+    }
+    #allHeroHeaders{
+        left: 37rem;
+    }
+}
+
+@media screen and (max-width: 1034px) {
+    .roverPic{
+        left: 13rem;
+    }
+    #allHeroHeaders{
+        left: 22rem;
+    }
+}
