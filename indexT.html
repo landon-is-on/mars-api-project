@@ -13,6 +13,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!------hero--->
@@ -20,36 +21,46 @@
         <img> 
         <div id="allHeroHeaders"> 
             <p id="hero-p">daily picture of</p>
-        <h1 id="hero-title">Mars</h1>
+        <h1 id="hero-title"><a id="mars-headerWord">Mars</a></h1>
     <p id="hero-sub"> type in the date to see.</p>
+    </div>
+    <div class="" id="calander-input">
+        <form id="searchForm">
+            <input type="text" class="searchTerm" placeholder="2021-06-03" name="query">
+            <button type="submit" id="button"><i class="fa fa-search"></i></button>
+        </form>
     </div>
 </div>
 <!--info panals-->
-    
 <div class="allInfo-d">
-<div class="info-panal animate__animated animate__fadeInUp">
+    <div id="info-panal-zoom">
+
+        <div class="info-panal animate__animated animate__fadeInUp">
     <h3 class="info-header">about the api</h3>
     <p class="info-p">this api is from NASA, the api takes data from rovers and displays them. </p>
 </div>
 
-<div class="info-panal animate__animated animate__fadeInUp">
+</div>
+
+<div id="info-panal-zoom">
+    <div class="info-panal animate__animated animate__fadeInUp">
     <h3 class="info-header">how to use</h3>
     <p class="info-p">how to use the api you must put in the year-mouth-day for example: 2015-05-20</p>
 </div>
 
-<div class="info-panal animate__animated animate__fadeInUp">
+</div>
+
+<div id="info-panal-zoom"> 
+<div  class="info-panal animate__animated animate__fadeInUp">
     <h3 class="info-header">more about mars</h5>
     <p class="info-p">mars is a vast place to be exslorid, temperture ranging from an Average -81 degrees F </p>
 </div>
-    </div>
-<!---------api--------------->
-<div class="" id="calander-input">
-   
-    <form id="searchForm">
-        <input type="text" placeholder="2021-06-03" name="query">
-        <button>search</button>
-    </form>
+    
 </div>
+
+</div>
+<!---------api--------------->
+
 </body>
 <script src="/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
