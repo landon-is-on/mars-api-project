@@ -68,11 +68,14 @@ font-family: 'Cinzel', serif;
     .allInfo-d{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
-        
+        justify-content:space-evenly;
         height: 20.9rem;
     }
     
+#underline{
+    text-decoration:underline;
+}
+
     .info-panal{
         margin-top: 5rem;
         margin-left: 1rem;
